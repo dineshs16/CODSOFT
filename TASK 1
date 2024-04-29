@@ -79,6 +79,9 @@ li:last-child {
   border-bottom: none;
 }
 
+
+//JAVASCRIPT
+
 const form = document.getElementById('task-form');
 const input = document.getElementById('new-task');
 const taskList = document.getElementById('task-items');
@@ -98,11 +101,6 @@ form.addEventListener('submit', function(event) {
     input.value = '';
   }
 });
-
-
-
-//JAVASCRIPT
-
 
 
 // Edit and Delete task
